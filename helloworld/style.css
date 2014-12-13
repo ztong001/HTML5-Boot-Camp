@@ -1,0 +1,23 @@
+html{
+  background: linear-gradient(15deg,fuchsia,white) no-repeat; 
+  background-attachment: fixed;
+}
+
+h1{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-style: oblique;
+}
+
+p{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: navy;
+  font-size:14px;
+  text-shadow: 2px 2px 2px #000;
+  transition: all 2s 
+}
+
+p:hover{
+  transform: translate(50px,0px);
+  text-shadow: 5px 5px 5px #FFF;
+  color: azure;
+}
